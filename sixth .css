@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #f1f1f1;
+}
+header{
+    background-color: white;
+    height: 80px ;
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+    position: fixed;
+
+}
+header nav{
+    float: right;
+}
+
+header h1{
+    font-family:  Calibri;
+    float: left;
+}
+.logo{
+    color: rgb(235, 49, 16);
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    float: left;
+    margin-right: 21px;
+   
+}
+
+a:link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(235, 49, 16);
+    font-family:  Calibri ;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(167, 31, 7);
+    transition: 1s;
+}
+article{
+    overflow: hidden;
+    background-color: #f79aff;
+    margin-bottom: 14px;
+    padding: 100px;
+
+    
+}
+article img{
+    border-radius: 0px;
+}
+.read a:link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(16, 235, 16);
+    font-family:  Calibri ;
+}
+.read a:hover{
+    text-decoration: underline;
+    color: rgb(44, 167, 7);
+    transition: 1s;
+}
+
+article h2 a{
+    color: #d9963e;
+    border-bottom: 1px dotted #d9a83e;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+article h2 a:hover{
+    text-decoration: none;
+    color: #a8822f;
+}
+article p{
+    font-size: 19px;
+    font-family: Calibri;
+    float: left;
+    width: 65%;
+}
+
+
+article img{
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 9px;
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+.read{
+    float: right;
+    margin-right: 23px;
+    background-color: #fff;
+    border: 1px solid rgb(235, 49, 16) ;}
+    .inputbox{
+        background-image: url("doctor1\ \(1\).jpg") ;
+    height: 700px ;
+background-size: 100% ;
+background-repeat: no-repeat;
+padding: 100px;
+margin-top: 50px;
+
+    }
+    .box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 1200px;
+        height: 250px;
+        padding: 40px;
+        background-color: rgba(0, 0, 0, 0.801);
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        margin-top: 250px;
+        margin-right: 100px;
+    }
+
+    .box h2{
+   
+        text-align: center;
+    }
+    form{
+        max-height: 500px;
+        max-width: 900px;
+    }
+    .container{
+        margin: 0 auto;
+        max-width: 900px;
+        max-height: 500px;
+        }
+        
+        .apply_box{
+            max-width: 600px;
+            padding: 20px;
+            background-color: white;
+            margin: 0 auto;
+            margin-top: 50px;
+            max-height: 500px;
+            box-shadow: 4px 3px 5px rgb(1, 1, 1, 0.1);
+        }
+        .title_small{
+        font-size: 20px;
+        color: rgb(255, 0, 106);
+        }
+        
+        
+        .form_container{
+        margin-top: 20px;
+        display: grid;
+        
+        grid-template-columns: repeat( auto-fit,  minmax(200px, 1fr));
+        gap: 20px;
+        }
+        
+        .form_control{
+        display: flex;
+        flex-direction: column;
+        }
+        
+        label{
+        font-size: 15px;
+        margin-bottom: 5px;
+        }
+        input,
+        select,
+        textarea{
+        padding: 6px 10px;
+        border: 1px solid rgb(23, 15, 71);
+        border-radius: 17px;
+        }
+        
+        input:focus{
+        outline-color: darkgreen;
+        }
+        .button_container{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+        }
+        
+        button{
+            background-color: brown;
+            border: transparent solid 2px;
+            padding: 5px 10px;
+            color: white;
+            border-radius: 8px;
+            transition: 0.3s ease-out;
+            margin-bottom: 40px;
+        }
+        button:hover{
+        background-color: #ccc;
+        border: 2px solid red;
+        color: black;
+        transition: 0.3s ease-out;
+        cursor: pointer;
+        }
+        .textarea_control{
+        
+        grid-column: 1 / span 2;
+        }
+        .textarea_control textarea{
+            width: 100%;
+        }
+        
